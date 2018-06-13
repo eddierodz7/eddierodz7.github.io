@@ -1,0 +1,83 @@
+body {
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+overflow: hidden;
+background-color: #333;
+}
+
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+.topnav a.active {
+background-color: #4CAF50;
+color: white;
+}
+h1,h2,ol{
+  text-align:center;
+}
+h1{
+  color:rgba(100, 50, 255, .8);
+}
+.rainbow {
+
+  -webkit-animation: rainbow 3s infinite;
+
+
+  -ms-animation: rainbow 3s infinite;
+
+
+  animation: rainbow 3s infinite;
+}
+
+
+@-webkit-keyframes rainbow{
+	20%{color: red;}
+	80%{color: blue;}
+
+}
+
+@-ms-keyframes rainbow{
+	20%{color: red;}
+	80%{color: blue;}
+}
+
+
+@keyframes rainbow{
+	5%{color: red;}
+	85%{color: blue;}
+}
+body{
+  background-image: url("images/guanajuato.jpg");
+
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("images/guanajuato.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
